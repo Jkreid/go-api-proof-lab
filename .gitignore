@@ -1,0 +1,7 @@
+.tools/
+.cache/
+coverage.out
+*.test
+.DS_Store
+.env
+.env.*

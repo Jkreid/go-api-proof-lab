@@ -11,6 +11,9 @@ Optional idempotency keys add a fourth lifetime: a successful write receipt that
 is valid for replay for 24 hours, independently of display snapshots. Physical
 retention can last longer until cleanup or key reuse.
 
+Maintained by [Justin Reid (@Jkreid)](https://github.com/Jkreid).
+[MIT license](LICENSE) · [Authorship and attribution](AUTHORS.md), including AI assistance.
+
 ## Five-minute review
 
 1. Read the storage choices and alternatives in [the case study](docs/case-study.md).
@@ -202,3 +205,9 @@ specific policies and mechanisms were developed collaboratively with AI assistan
 implementation and tests were also AI-assisted. This is not a claim that every
 mechanism was his original invention or that the sample has production usage.
 See [the case study](docs/case-study.md) for the reasoning and its limits.
+
+## License
+
+Copyright (c) 2026 Justin Reid. This sample is available under the [MIT license](LICENSE).
+See [authorship and attribution](AUTHORS.md) for contributions, public Git identity,
+and third-party component credits.
